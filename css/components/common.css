@@ -85,36 +85,6 @@
 	margin: 0 auto;
 }
 
-div.logo {
-	width: 1276px;
-	margin: 0 auto;
-	padding: 39px 0;
-	display: flex;
-	justify-content: space-between;
-}
-
-a.logo {
-	text-decoration: none;
-	color: #000000;
-	font-size: 32px;
-	font-weight: 600;
-}
-
-a.tel {
-	text-decoration: none;
-	color: #282b2f;
-	font-size: 18px;
-	font-weight: 600;
-}
-
-span.logo {
-	color: #009688;
-}
-
-span.icon-tel {
-	font-size: 20px;
-}
-
 .menu li {
 	display: inline-block;
 	vertical-align: middle;
