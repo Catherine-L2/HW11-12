@@ -1,0 +1,320 @@
+.wrapper {
+	overflow: hidden;
+	position: relative;
+}
+
+.container {
+	max-width: 1276px;
+	margin: 0 auto;
+}
+
+.breadcrumbs {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.breadcrumbs li {
+	position: relative;
+	margin-right: 10px;
+	padding-right: 25px;
+}
+
+.breadcrumbs li::after {
+	content: '>';
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+.breadcrumbs li:last-child::after {
+	display: none;
+}
+
+.breadcrumbs a {
+	text-decoration: none;
+	color: #282b2f;
+}
+
+.form-control {
+	display: block;
+	width: 100%;
+	padding: 10px 15px;
+	border-color: #e0e9f0;
+	border-radius: 5px;
+	margin-bottom: 16px;
+}
+
+.form-control:focus {
+	border-color: #009688;
+}
+
+.form-control::-webkit-input-placeholder {
+	color: #bdc6ca;
+}
+
+.form-control::-moz-placeholder {
+	opacity: 1;
+	color: #bdc6ca;
+}
+
+.form-control:-ms-input-placeholder {
+	color: #bdc6ca;
+}
+
+.btn {
+	display: inline-block;
+	vertical-align: top;
+	padding: 17px 80px;
+	border-radius: 4px;
+	background-color: #009688;
+	color: #fff;
+	text-decoration: none;
+	border: none;
+}
+
+.btn:hover {
+	background-color: #424242;
+}
+
+.header {
+	max-width: 1442px;
+	background-color: #f5f8fb;
+	margin: 0 auto;
+}
+
+div.logo {
+	width: 1276px;
+	margin: 0 auto;
+	padding: 39px 0;
+	display: flex;
+	justify-content: space-between;
+}
+
+a.logo {
+	text-decoration: none;
+	color: #000000;
+	font-size: 32px;
+	font-weight: 600;
+}
+
+a.tel {
+	text-decoration: none;
+	color: #282b2f;
+	font-size: 18px;
+	font-weight: 600;
+}
+
+span.logo {
+	color: #009688;
+}
+
+span.icon-tel {
+	font-size: 20px;
+}
+
+.menu li {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.menu ul {
+	display: flex;
+	justify-content: space-between;
+	padding: 20px 0;
+}
+
+.menu a {
+	color: #282b2f;
+	text-decoration: none;
+	font-size: 18px;
+	font-weight: 700;
+}
+
+hr {
+	border-top: 1px solid #e0e9f0;
+}
+
+.cols {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 86px;
+	flex-wrap: wrap;
+}
+
+.left {
+	min-width: 845px;/*flax-basis не работает*/
+	margin-right: 57px;
+}
+
+.left h2, h3 {
+	margin-top: 86px;
+}
+
+.left img {
+	margin: 40px 0;
+}
+
+.watch-type {
+	font-style: italic;
+	line-height: 1.75;
+}
+
+.watch-type p {
+	font-size: 20px;
+}
+
+.assortment {
+	list-style: none;
+	padding: 20px;
+}
+
+ul.assortment li {
+	position: relative;
+}
+
+.assortment li:before {
+	content: '-';
+	position: absolute;
+	left: -18px;
+}
+
+ol li {
+	line-height: 26px;
+}
+
+ol {
+	padding-inline-start: 20px;
+}
+
+h3.comment {
+	margin-top: 45px;
+}
+
+.right section {
+	margin: 30px 0;
+}
+
+.right img {
+	margin: 30px 0;
+}
+
+.read {
+	color: #009688;
+	font-weight: 600;
+}
+
+.read:hover {
+	cursor: pointer;
+}
+
+.right .button {
+	color: #009688;
+	border: 2px solid #009688;
+	border-radius: 4px;
+	padding: 17px 71px;
+	font-size: 18px;
+	margin-top: 55px;
+	background-color: #ffffff;
+}
+
+.right p {
+	padding-top: 25px;
+}
+
+.search {
+	width: 100%;
+	margin: 0 auto;
+}
+
+.search-form {
+	position: relative;
+}
+
+.search-form .form-control {
+	margin: 0;
+}
+
+.search-form .btn {
+	position: absolute;
+	right: 17px;
+	top: 12px;
+	bottom: 12px;
+	width: 40px;
+	font-size: 0;
+	padding: 0;
+	margin: 0;
+	border: 0;
+	cursor: pointer;
+	border-radius: 0 5px 5px 0;
+	background: url(../../images/search.png) no-repeat 50% 50%;
+}
+
+time {
+	color: #bdc6ca;
+	font-size: 14px;
+}
+
+h4 {
+	margin-bottom: 16px;
+}
+
+.button {
+	position: absolute;
+	color: red;
+}
+
+.footer hr {
+	margin-top: 86px;
+}
+
+.footer div.container {
+	display: flex;
+	justify-content: space-between;
+}
+
+.footer p {
+	font-size: 14px;
+	color: #282b2f;
+}
+
+.rights {
+	align-self: center;
+}
+
+.social-networks a {
+	color: #546e7a;
+}
+
+.social-netvorks a.active {
+	color: #009688;
+}
+
+.social-networks {
+  list-style: none;
+  padding-inline-start: 0;
+  padding: 46px 0;
+}
+
+.social-networks li {
+   display: inline-block;
+   margin: 0 auto;
+   vertical-align: middle;
+   margin-right: 30px;
+}
+
+.social-networks a:hover {
+  cursor: pointer;
+}
+
+.social-networks a {
+  text-decoration: none;
+  font-size: 20px;
+  color: #546e7a;
+}
+
+.icon-dribbble {
+  color: #009688;
+}
